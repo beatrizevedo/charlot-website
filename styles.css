@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #706559;
+  --secondary-color: #dedede;
+  --text-color: #85817e;
+  --default-font: 'Delicious Handrawn';
+}
+body {
+  margin: 0px;
+}
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-family: var(--default-font);
+  padding-left: 100px;
+  padding-top: 35px;
+}
+h2 {
+  font-size: 45px;
+  color: var(--text-color);
+  font-family: var(--default-font);
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--secondary-color);
+}
+.moustache-icon {
+  width: 125.4px;
+  height: 33.8px;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+.button-instagram {
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 10px 30px 10px 30px;
+  background-color: var(--primary-color);
+  font-family: var(--default-font);
+  font-size: 25px;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+.hero-img {
+  max-width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
