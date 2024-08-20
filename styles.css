@@ -175,17 +175,57 @@ footer p {
   font-size: 25px;
 }
 @media (max-width: 800px) {
+  body {
+    text-align: center;
+  }
   h1 {
-    font-size: 40px;
+    font-size: 70px;
     padding-top: 0px;
     padding-left: 0px;
     text-align: center;
   }
   h2 {
-    font-size: 25px;
-    padding-bottom: 15px;
+    font-size: 40px;
+    padding-bottom: 30px;
     text-align: center;
     padding-left: 0px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .main-grid-text-left h4 {
+    text-align: center;
+  }
+  .main-grid-text-right h4 {
+    text-align: center;
+  }
+  .main-grid-text-left p {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .main-grid-text-right p {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .main-grid-text-right {
+    grid-template-columns: 1fr;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+  .main-grid-text-left {
+    grid-template-columns: 1fr;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+  .main-grid-image {
+    width: 500px;
+    height: auto;
   }
   .hero-grid {
     grid-template-columns: 1fr;
@@ -199,12 +239,32 @@ footer p {
     margin: auto;
   }
   .button-instagram {
-    font-size: 18px;
+    font-size: 25px;
+    margin: 0;
   }
   .hero-img {
-    margin-top: 20px;
+    margin-top: 40px;
     width: auto;
     height: auto;
+  }
+  .instagram-grid {
+    grid-template-columns: 20px 20px;
+    grid-gap: 200px;
+    margin-left: 60px;
+  }
+  .featured-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
+    grid-gap: 30px;
+  }
+  .text-icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .contacts-grid {
+    padding-left: 50px;
+    padding-right: 50px;
   }
   footer p {
     font-size: 15px;
