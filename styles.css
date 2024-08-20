@@ -1,6 +1,6 @@
 :root {
   --primary-color: #706559;
-  --secondary-color: #dedede;
+  --secondary-color: #ecebeb;
   --text-color: #85817e;
   --default-font: 'Delicious Handrawn';
 }
@@ -21,12 +21,106 @@ h2 {
   padding-left: 100px;
   padding-bottom: 50px;
 }
-
+h3 {
+  font-size: 50px;
+  text-align: center;
+  color: var(--primary-color);
+  margin: 0 0 0 0;
+  padding-bottom: 70px;
+}
+footer {
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+footer a {
+  font-size: 24px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+footer p {
+  color: var(--text-color);
+  font-size: 18px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+.main-grid-text-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 150px;
+  margin-right: 350px;
+  margin-left: 250px;
+}
+.main-grid-text-right h4 {
+  font-size: 45px;
+  color: var(--primary-color);
+  text-align: right;
+  margin-top: 25px;
+}
+.main-grid-text-right p {
+  font-size: 28px;
+  line-height: 1.5;
+  color: var(--text-color);
+  text-align: right;
+}
+.main-grid-text-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 150px;
+  margin-left: 310px;
+  margin-right: 190px;
+}
+.main-grid-text-left h4 {
+  font-size: 45px;
+  color: var(--primary-color);
+  text-align: left;
+  margin-top: 25px;
+}
+.main-grid-text-left p {
+  font-size: 28px;
+  line-height: 1.5;
+  color: var(--text-color);
+  text-align: left;
+}
+.instagram-section {
+  margin-top: 150px;
+}
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--secondary-color);
   margin-bottom: 50px;
+}
+.text-icon {
+  width: 80px;
+  height: auto;
+  display: flex;
+  margin-left: 500px;
+}
+.main-grid-image {
+  width: 350px;
+  height: auto;
+  border: 8px solid var(--secondary-color);
+  border-radius: 30px;
+  margin-left: 50px;
+}
+.featured-grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 150px;
+  padding-bottom: 50px;
+  margin-left: 350px;
+  align-items: center;
+}
+.featured-grid img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
 }
 .moustache-icon {
   width: 125.4px;
@@ -49,21 +143,36 @@ h2 {
   background-size: contain;
   background-repeat: no-repeat;
 }
-footer {
-  text-align: center;
+.instagram-section {
+  background-color: var(--secondary-color);
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
-footer a {
-  font-size: 24px;
+.instagram-grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 250px;
+  margin-left: 330px;
+}
+.featured-section {
+  background-color: var(--secondary-color);
+}
+.contacts-grid {
+  margin-bottom: 50px;
+  grid-gap: 80px;
+  padding-top: 35px;
+}
+
+.contacts-grid i {
   color: var(--secondary-color);
-  background-color: var(--primary-color);
-  padding: 10px 30px 10px 30px;
-  border-radius: 20px;
-  text-decoration: none;
+  background: var(--primary-color);
+  padding: 5px 5px 5px 5px;
+  border-radius: 40%;
 }
-footer p {
-  color: var(--text-color);
-  font-size: 20px;
-  margin-top: 50px;
+.contacts-grid a {
+  background: none;
+  color: var(--primary-color);
+  font-size: 25px;
 }
 @media (max-width: 800px) {
   h1 {
