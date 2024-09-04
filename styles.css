@@ -142,6 +142,7 @@ footer p {
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  object-fit: cover;
 }
 .instagram-section {
   background-color: var(--secondary-color);
@@ -150,9 +151,9 @@ footer p {
 }
 .instagram-grid {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-gap: 250px;
-  margin-left: 330px;
+  grid-template-columns: 326px 326px 326px;
+  grid-gap: 48px;
+  justify-content: center;
 }
 .featured-section {
   background-color: var(--secondary-color);
